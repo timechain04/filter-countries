@@ -48,4 +48,4 @@ function onFetchError(error) {
     refs.countryInfo.innerHTML = ''
     refs.countryList.innerHTML = ''
     Notify.failure("Oops, there is no country with that name")
-}
+ }

@@ -29,7 +29,7 @@ function onSearch(event) {
 }
 
 function renderCountriesData(countries) {
-    if (countries.length > 11) {
+    if (countries.length > 11)  {
         refs.countryInfo.innerHTML = ''
         refs.countryList.innerHTML = ''
         Notify.info("Too many matches found. Please enter a more specific name.")
